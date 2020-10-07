@@ -6,9 +6,9 @@ class Gradebot{
       double outof;
       double percent;
       String gradeletter ="";
-   System.out.print("What did you get");
+   System.out.println("What did you get");
    grade=sc.nextDouble();
-   System.out.print("What is it out of");
+   System.out.println("What is it out of");
    outof=sc.nextDouble();
    
    percent=grade/outof *100;
